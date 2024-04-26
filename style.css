@@ -1,0 +1,180 @@
+/* Write some CSS below */
+body {
+    font-size: 15px;
+    font-family: 'Roboto';
+    padding : 0;
+    margin: 0;
+}
+
+h1 {
+    font-size:  40px;
+}
+
+h2 {
+    font-size:  35px;
+}
+
+h1,h2 {
+
+}
+
+p{
+    font-size: x-large;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+header{
+    background-color:gray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-right{
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    word-spacing: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.logo{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.logo img{
+ width: 70px;
+ height: auto;   
+}
+
+ul{
+    list-style-type:none;
+    margin:0 auto;
+    padding: 0;
+    display: inline;
+    gap: 15px;
+}
+.banner {
+    background-image: url(images/kimocostume.jpg);
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 150px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#decouvrez {
+    background-color: skyblue; 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    transition: background-color 0.; 
+}
+
+#decouvrez:hover{
+    transform: scale(1.05);
+    color: black;
+}
+
+.section-white {
+    background-color : white;
+    margin: 40px 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 1450px;
+    text-align: center;
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+}
+
+.card-white {
+
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.card-white img{
+border-radius: 4px;
+width: 100%;
+height: 600px;
+object-fit: cover;
+}
+
+.card-white:hover{
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 10px;
+
+    width: 1200px;
+    margin: 10px auto;
+}
+
+/* #typeform {
+    width: ;
+    height: ;
+} */
+
+
+.list-inline {
+    list-style: none;
+    
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline li i{
+    font-size: 100px;
+    color :rgb(0, 0, 0);
+    padding: 20px;
+    transition: 0.5s;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-inline li i:hover{
+    color :rgb(255, 255, 255);
+}
+
+#iddecouvrez{
+
+}

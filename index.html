@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page - Web Development Sprint</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/66aac4e631.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="images/costumelogo.png" alt="logo costume site kimo">
+  </div>
+  <div class="header-right">
+    <a href="">Info</a>
+    <a href="">Contacter</a>
+    <a href="">Compte</a>
+  </div>
+</header>
+
+  <!-- Banner section -->
+  <div class="banner">
+    <h1>L'Elegance de l'Homme</h1>
+    <a id="decouvrez" href="https://www.deguisetoi.fr/p-238934-deguisement-manga-rouge-adulte.html?esl-k=google-ads|nx|c|m|kpla|p|t|dc|a|g17543368525&gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBleuUVQfwc34SIyC4WsrUTL-3-YsiPtS2WJAnAwVHUe-Q3ys52CnjyPgaAtSREALw_wcB#ectrans=1"><strong> Cliquez pour nos costumes</strong></a>
+  
+  </div>
+
+  <!-- Cards section -->
+  <div class="section-white">
+    <div class="container">
+      <h2>Les Saisons</h2>
+
+      <div class="cards">
+
+        <div class="card-white">
+          <img  src="images/costumeautomne.jpg" alt="">
+          <p>Saison Printemps/Automne</p>
+        </div>
+      
+
+        
+          <div class="card-white">
+            <img src="images/costumehiver.jpg" alt="">
+            <p>Saison Hiver</p>
+          </div>
+       
+          
+            <div class="card-white">
+              <img src="images/costumeete.jpg" alt="">
+              <p>Saison Été</p>
+            </div>
+          
+
+        </div>
+  </div>
+</div>
+
+
+<div class="footer">
+
+  <div class="container-footer">
+    <div id="typeform">
+      <div data-tf-live="01HWD6ZXVVPCCSKXKQ8ND8PEYS"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    </div>
+    <div>
+      <p>Élevez-vous d'un rang <br>N'hésitez pas à visiter nos réseaux 😉</p>
+      <ul class="list-inline">
+        <li><a href="https://www.instagram.com/p/CBgVb4OFNYY/"target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.tiktok.com/@toby0hs/video/7080072408262053121?q=costard%20meme&t=1714063041558"target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+      </ul>
+    </div>
+
+
+
+      
+  </div>
+
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var link = document.getElementById('decouvrez');
+      var audio = new Audio('boing_imke36X.mp3');
+  
+      link.addEventListener('click', function(event) {
+          event.preventDefault(); // Empêche le comportement par défaut du lien (redirection)
+          audio.play();
+      });
+  });
+  </script>
+</body>
+</html>
